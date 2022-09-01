@@ -1,9 +1,32 @@
 *{
-    
+    margin: 0;
 }
 
 .top {
     display: flex;
-    margin-left: 40rem;
-    flex: 0;
+    background-color: #1F2937;
+}
+
+.top div{
+    padding: 0 10vw 5vw 10vw;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-lo{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.header-tw{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.header-thr{
+    font-size: 18px;
+    color:#E5E7EB;
 }
