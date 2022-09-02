@@ -11,26 +11,32 @@
 
 .section { 
     background-color: #1F2937;
-    height: 23rem;
+    height: auto;
+}
+
+.section-top {
+    width: 100%;
 }
 
 .section .box1{
+    padding: 0.5rem;
     border: 1px solid red;
     height: 10rem;
-    width: 50%;
+    width: 100%;
     justify-content: center;
-    
 }
 
 .section .box1 p{
     color: var(--white);
     font-size: 24px;
+    font-weight: bold;
 }
 
 .section .box2{
+    padding: 0.5rem;
     border: 1px solid red;
     height: 10rem;
-    width: 50%;
+    width: 100%;
 }
 
 .section, .box1, .box2{
@@ -47,9 +53,24 @@
     display: flex;
     width: 50%;
     justify-content: space-between;
-    
 }
 
 .box2{
     justify-content: space-around;
+}
+
+.box2 ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.section-middle{
+    color: var(--white);
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-middle .section-middle-left{
+    width: 58%;
 }
