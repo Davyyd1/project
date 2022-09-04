@@ -242,3 +242,19 @@ html{
     border-top-left-radius: .8rem;
     border-top-right-radius: .8rem;
 }
+
+footer{
+    height: 5rem;
+    background-color: #1F2937;
+    position: absolute;
+    width: 100%;
+}
+footer .footer{
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer h5{
+    margin-top: 2rem;
+}
