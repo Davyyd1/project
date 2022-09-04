@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    place-items: center;
+}
 :root{
     --white: #F9FAF8;
     --whitegray: #E5E7EB;
@@ -11,16 +13,16 @@
 
 .section { 
     background-color: #1F2937;
-    height: auto;
+    height: 35rem;
 }
 
 .section-top {
     width: 100%;
+    display: flex;
+    padding: 1rem;
 }
 
 .section .box1{
-    padding: 0.5rem;
-    border: 1px solid red;
     height: 10rem;
     width: 100%;
     justify-content: center;
@@ -29,19 +31,15 @@
 .section .box1 p{
     color: var(--white);
     font-size: 24px;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .section .box2{
-    padding: 0.5rem;
-    border: 1px solid red;
     height: 10rem;
     width: 100%;
 }
 
-.section, .box1, .box2{
-    display:flex;
-}
 
 .box2 ul li{
     color: var(--whitegray);
@@ -51,12 +49,11 @@
 
 .box2 ul{
     display: flex;
-    width: 50%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.box2{
-    justify-content: space-around;
+.box2 ul li{
+    width: 20%;
 }
 
 .box2 ul li a{
@@ -66,11 +63,182 @@
 
 .section-middle{
     color: var(--white);
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-middle .section-middle-left{
+    width: 25%;
+    position: relative;
+    left: 12rem;
+}
+
+.section-middle .section-middle-left .awesome {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.btn {
+    color: var(--white);
+}
+
+.section-middle .box-img{
+    position: relative;
+    right: 8rem;
+}
+
+.section-middle .box-img .img{
+    color: white;
+    background-color: gray;
+    padding: 8.5rem;
+    height: 15rem;
+}
+
+.section-middle .box-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section .section-middle{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* ------------------------------ UPPER SECTION ending ---------------------------- */
+
+/* ----------------------------- UPPER MIDDLE SECTION starting -------------------- */
+
+
+.randomP{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 1rem;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+    width: 100%;
+    
+}
+
+.section2-All{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.section2 .patrate{
+    border: 3px solid #3882F6;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+}
+
+.obiecte{
+    width: 100%;
+    margin: 1rem;
+}
+
+.obiecte .text{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ----------------------------- UPPER MIDDLE SECTION end -------------------- */
+
+
+/* ----------------------------- SECTION 3 -------------------- */
+
+.wrapper{
+    height: 22rem;
+    background-color: #E5E7EB;
+}
+
+.wrapper .wrapper-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.wrapper .wrapper-text .text2{
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.wrapper-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-ss{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper-all-h{
+    width: 50%;
     display: flex;
     justify-content: flex-end;
 }
 
-.section-middle .section-middle-left{
-    width: 58%;
+/* ----------------------------- SECTION 3 END -------------------- */
+
+
+/* ---------------------------- SECTION 4 START ------------------- */
+
+
+.wrapper-2{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.wrapper-2 .wrapper-interior{
+    width: 55%;
+    padding: 3rem;
+    color: var(--white);
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+.signup{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.signup .btnB{
+    border: 1.5px solid var(--white);
+    background-color: #3882F6;
+    color: white;
+    height: 3rem;
+    width: 11rem;
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
 }
