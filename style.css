@@ -107,7 +107,7 @@
 }
 
 .patrat-figcaption1 {
-  border: 3px solid #c70101;
+  border: 3px solid #e5e7eb;
   width: 230px;
   border-radius: 1rem;
 }
@@ -119,7 +119,7 @@
 }
 
 .patrat-figcaption2 {
-  border: 3px solid #c70101;
+  border: 3px solid #e5e7eb;
   width: 230px;
   border-radius: 1rem;
 }
@@ -131,7 +131,7 @@
 }
 
 .patrat-figcaption3 {
-  border: 3px solid #c70101;
+  border: 3px solid #e5e7eb;
   width: 230px;
   border-radius: 1rem;
 }
@@ -143,7 +143,7 @@
 }
 
 .patrat-figcaption4 {
-  border: 3px solid #c70101;
+  border: 3px solid #e5e7eb;
   width: 230px;
   border-radius: 1rem;
 }
@@ -175,7 +175,8 @@
 /* FIXME: */ /* ---- cand scriu mai mult, mi se mareste si box ul -----*/
 
 .wrapper-3 {
-  background-color: #e5e7eb;
+  background-image: url(tenhag.png);
+  background-size: cover;
   height: auto;
   display: flex;
   justify-content: center;
@@ -191,14 +192,14 @@
 }
 
 .wrapper-3-interior .text {
-  font-size: 29px;
-  font-style: italic;
-  font-weight: 300;
-}
-.wrapper-3-interior .note {
-  width: 100%;
+  font-size: 75px;
+  font-style: bold;
+  font-weight: 500;
+  color: var(--white);
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper-4 {
