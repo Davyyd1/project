@@ -175,7 +175,7 @@
 /* FIXME: */ /* ---- cand scriu mai mult, mi se mareste si box ul -----*/
 
 .wrapper-3 {
-  background-image: url(tenhag.png);
+  background-image: url(/pic/tenhag.png);
   background-size: cover;
   height: auto;
   display: flex;
