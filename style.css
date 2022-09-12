@@ -8,7 +8,7 @@
 
 .wrapper {
   background-color: var(--backgroundwhite);
-  height: 70vh;
+  height: auto;
 }
 
 .wrapper .top {
@@ -272,7 +272,7 @@ footer {
   }
   .top-text-left #btn {
     font-size: small;
-    width: 7vw;
+    width: 7rem;
   }
 
   .top-text .top-text-right {
@@ -426,4 +426,73 @@ footer {
 }
 
 @media all and (max-width: 600px) {
+  .top1 .top h2 {
+    font-size: smaller;
+    margin-top: 0.5rem;
+  }
+  .top1 .top img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .top1 {
+    height: auto;
+    width: auto;
+  }
+  .top1 .top ul {
+    font-size: small;
+  }
+  .top-text-interior {
+    padding-top: 2rem;
+  }
+  .top-text-left {
+    width: 16rem;
+    margin-bottom: 5rem;
+    margin-left: 3.5rem;
+  }
+  .top-text-left .title {
+    font-size: large;
+  }
+  .top-text-left .text {
+    font-size: small;
+  }
+  .top-text-left #btn {
+    font-size: small;
+    width: 7rem;
+  }
+
+  .top-text .top-text-right {
+    display: flex;
+    position: relative;
+    right: 52.5rem;
+    top: 15rem;
+  }
+
+  #imgbck {
+    width: 16rem;
+    height: 10rem;
+  }
+  .wrapper-interior1 {
+    width: auto;
+  }
+  .wrapper-interior1 .p-wrapper-2 {
+    font-size: x-large;
+  }
+  .wrapper-interior1 .patrate {
+    width: 100vw;
+    display: inline-block;
+    justify-self: center;
+    padding: 0rem 8rem;
+  }
+  .wrapper-interior1 .patrat-figcaption1 {
+    width: 10rem;
+    display: inline-block;
+    justify-self: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .wrapper-interior1 .patrate #img-match1 {
+    width: 9.5rem;
+    display: inline-block;
+    justify-self: center;
+  }
 }
